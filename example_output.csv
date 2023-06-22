@@ -1,0 +1,4 @@
+﻿id;name;description;severity;connectorId;dataTypes;tactics;tecniques;file
+fd200125-9d57-4838-85ca-6430c63e4e5d;Ubiquiti - Unusual FTP connection to external server;'Detects local to remote (L2R) FTP connections.';Medium;UbiquitiUnifi;UbiquitiAuditEvent;Exfiltration;;Solutions/Ubiquiti UniFi/Analytic Rules/UbiquitiL2RFTP.yaml
+25c86f99-0a91-4b7f-88f3-599a008e5ab8;API - Account Takeover;'42Crunch API protection against account takeover';High;42CrunchAPIProtection;apifirewall_log_1_CL;CredentialAccess, Discovery;T1110, T1087;Solutions/42Crunch API Protection/Analytic Rules/APIAccountTakeover.yaml
+0adab960-5565-4978-ba6d-044553e4acc4;Successful API executed from a Tor exit node;'A successful API execution was detected from an IP address categorized as a TOR exit node by Threat Intelligence.';High;AWS;AWSCloudTrail;Execution;T1204;Solutions/Amazon Web Services/Analytic Rules/AWS_APIfromTor.yaml
